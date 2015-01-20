@@ -1,4 +1,4 @@
-# Copyright (C) 2011-2014  Codethink Limited
+# Copyright (C) 2011-2015  Codethink Limited
 #
 # This program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -39,7 +39,7 @@ __version__ = gitversion.version
 
 # List of architectures that Morph supports
 valid_archs = ['armv7l', 'armv7lhf', 'armv7b', 'testarch',
-               'x86_32', 'x86_64', 'ppc64']
+               'x86_32', 'x86_64', 'ppc64', 'aarch64l', 'aarch64b']
 
 class Error(cliapp.AppException):
 

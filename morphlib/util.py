@@ -1,4 +1,4 @@
-# Copyright (C) 2011-2014  Codethink Limited
+# Copyright (C) 2011-2015  Codethink Limited
 #
 # This program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -467,7 +467,7 @@ def get_host_architecture(): # pragma: no cover
         'armv7b': 'armv7b',
         'armv8l': 'armv8l',
         'armv8b': 'armv8b',
-        'aarch64': 'aarch64',
+        'aarch64': 'aarch64l',
         'aarch64b': 'aarch64b',
         'ppc64': 'ppc64'
     }
